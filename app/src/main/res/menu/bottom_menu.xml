@@ -6,7 +6,7 @@
         android:title=""
         android:icon="@drawable/open"
         android:id="@+id/open"
-     android:Tint="@color/white"
+        android:actionMenuTextColor="@color/white"
         android:enabled="true"
 
         />
@@ -15,7 +15,7 @@
         android:title=""
         android:icon="@drawable/message"
         android:id="@+id/message"
-        android:Tint="@color/white"
+        android:actionMenuTextColor="@color/white"
         android:enabled="true"
 
         />
@@ -23,7 +23,7 @@
         android:title=""
         android:icon="@drawable/share"
         android:id="@+id/share"
-        android:Tint="@color/white"
+        android:actionMenuTextColor="@color/white"
         android:enabled="true"
 
         />
