@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title=""
+        android:icon="@drawable/open"
+        android:id="@+id/open"
+     android:Tint="@color/white"
+        android:enabled="true"
+
+        />
+
+    <item
+        android:title=""
+        android:icon="@drawable/message"
+        android:id="@+id/message"
+        android:Tint="@color/white"
+        android:enabled="true"
+
+        />
+    <item
+        android:title=""
+        android:icon="@drawable/share"
+        android:id="@+id/share"
+        android:Tint="@color/white"
+        android:enabled="true"
+
+        />
+</menu>
