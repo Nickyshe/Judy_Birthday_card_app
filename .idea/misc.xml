@@ -3,12 +3,14 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/JudyBirthdayCardApp/app/src/main/res/drawable/editbg.xml" value="0.1345" />
         <entry key="..\:/Users/LENOVO/AndroidStudioProjects/JudyBirthdayCardApp/app/src/main/res/drawable/message.xml" value="0.1625" />
         <entry key="..\:/Users/LENOVO/AndroidStudioProjects/JudyBirthdayCardApp/app/src/main/res/drawable/open.xml" value="0.1625" />
         <entry key="..\:/Users/LENOVO/AndroidStudioProjects/JudyBirthdayCardApp/app/src/main/res/drawable/review.xml" value="0.1" />
         <entry key="..\:/Users/LENOVO/AndroidStudioProjects/JudyBirthdayCardApp/app/src/main/res/drawable/share.xml" value="0.1625" />
         <entry key="..\:/Users/LENOVO/AndroidStudioProjects/JudyBirthdayCardApp/app/src/main/res/drawable/share_icon.xml" value="0.1625" />
         <entry key="..\:/Users/LENOVO/AndroidStudioProjects/JudyBirthdayCardApp/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/JudyBirthdayCardApp/app/src/main/res/layout/activity_sigin_page.xml" value="0.33" />
         <entry key="..\:/Users/LENOVO/AndroidStudioProjects/JudyBirthdayCardApp/app/src/main/res/layout/activity_splash.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/LENOVO/AndroidStudioProjects/JudyBirthdayCardApp/app/src/main/res/layout/buttom_nav.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/LENOVO/AndroidStudioProjects/JudyBirthdayCardApp/app/src/main/res/layout/menu_icon_layout.xml" value="0.25" />
@@ -23,5 +25,12 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.33" />
+      </ProjectState>
+    </option>
   </component>
 </project>

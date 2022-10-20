@@ -6,6 +6,7 @@
         android:title=""
         android:icon="@drawable/open"
         android:id="@+id/open"
+        android:onClick="open"
         android:actionMenuTextColor="@color/white"
         android:enabled="true"
 
