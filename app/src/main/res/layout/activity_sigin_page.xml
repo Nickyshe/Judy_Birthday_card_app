@@ -1,25 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#4AE4014E"
+    android:background="#FCE4EC"
     tools:context=".Sigin_Page">
 
 
+
+    <ImageView
+        android:layout_marginTop="50dp"
+        android:id="@+id/birthday"
+        android:layout_width="280dp"
+        android:layout_height="200dp"
+        android:src="@drawable/bd2"
+        android:scaleType="center"
+        android:layout_centerHorizontal="true"
+
+        />
+
+
     <EditText
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/birthday"
         android:id="@+id/email"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-     android:inputType="textEmailAddress"
-        android:hint="Email"
-        android:textColorHint="@android:color/black"
-        android:textSize="20sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
         android:drawableLeft="@drawable/email"
         android:drawablePadding="15dp"
-        android:layout_margin="10dp"
-        android:padding="20sp"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:padding="15dp"
+        android:textColorHint="@android:color/black"
+        android:textSize="20sp"
 
         />
 
@@ -27,16 +45,16 @@
         android:id="@+id/pass"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:inputType="textEmailAddress"
         android:layout_below="@id/email"
+        android:layout_margin="10dp"
+        android:drawableLeft="@drawable/email"
+        android:drawableRight="@drawable/eye"
+        android:drawablePadding="15dp"
         android:hint="Password"
+        android:inputType="textEmailAddress"
+        android:padding="15dp"
         android:textColorHint="@android:color/black"
         android:textSize="20sp"
-        android:drawableLeft="@drawable/email"
-        android:drawablePadding="15dp"
-        android:layout_margin="10dp"
-        android:padding="20sp"
-        android:drawableRight="@drawable/eye"
 
         />
 
@@ -45,82 +63,77 @@
         android:id="@+id/forget_pass"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Forget your Password?"
         android:layout_below="@id/pass"
         android:layout_alignParentRight="true"
-        android:textSize="18sp"
-        android:textColor="@android:color/black"
         android:layout_margin="10dp"
-        />
+        android:background="@drawable/line"
+        android:text="Forget your Password?"
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
 
     <Button
         android:id="@+id/first_button"
-        android:layout_width="wrap_content"
+        android:layout_width="250dp"
         android:layout_height="wrap_content"
-        android:text="sign in"
         android:layout_below="@id/forget_pass"
         android:layout_centerHorizontal="true"
-        android:textSize="18sp"
         android:layout_margin="10dp"
+        android:background="@drawable/oval"
+        android:text="sign in"
+
+
+
+        android:textSize="16sp"
 
         />
 
     <Button
         android:id="@+id/second_button"
-        android:layout_width="wrap_content"
+        android:layout_width="250dp"
         android:layout_height="wrap_content"
-
         android:layout_below="@+id/first_button"
         android:layout_centerHorizontal="true"
-
         android:layout_marginBottom="10dp"
+        android:background="@drawable/oval"
         android:text="Continue with Google"
+
         android:textSize="16sp"
+        app:backgroundTint="#E91E63"
 
 
         />
 
     <TextView
         android:id="@+id/account"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/second_button"
-        android:text="Don't have an account?"
+        android:layout_marginTop="16dp"
+        android:text="Don't have an account?SIGN UP"
+        android:onClick="accountPage"
+        android:textAlignment="center"
         android:layout_centerHorizontal="true"
         android:textColor="@android:color/black"
+        android:clickable="true"
+
         android:textSize="18sp"
 
+
         />
-
-    <TextView
-        android:id="@+id/sign_up"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text=" SIGN UP"
-        android:layout_below="@id/second_button"
-        android:layout_centerHorizontal="true"
-        android:layout_toRightOf="@+id/account"
-        android:textSize="18sp"
-        android:textColor="@color/black"
-        />
-
-
-
-
 
     <CheckBox
-        android:id="@+id/wishes"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-android:layout_alignParentBottom="true"
-        android:text="You agree to Birthday wishes's Privacy Policy"
+        android:text="You agree to Birthday wishes's Privacy policy"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:textSize="18sp"
         android:textColor="@color/black"
-        android:textSize="14sp"
-        android:layout_marginLeft="16dp"
         android:layout_marginBottom="16dp"
-        android:padding="10dp"
-
         />
+
+
 
 
 
