@@ -10,6 +10,7 @@ import android.os.Looper;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.WindowManager;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 public class Splash extends AppCompatActivity {
@@ -42,6 +43,10 @@ public void siginPage(View v){
       startActivity(intent);
 
 
+}
+public void arrow(View v){
+    ImageView imageView = (ImageView) findViewById(R.id.arrow_icon);
+    finish();
 }
 
 
