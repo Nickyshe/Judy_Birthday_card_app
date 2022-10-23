@@ -1,6 +1,7 @@
 package com.example.judybirthdaycardapp;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.cardview.widget.CardView;
 import androidx.constraintlayout.widget.ConstraintLayout;
 
 import android.content.Intent;
@@ -49,6 +50,10 @@ public void arrow(View v){
     finish();
 }
 
+public void openBirthdayMessage(View view){
+    CardView cardView = (CardView) findViewById(R.id.card1);
+        Intent intent =new Intent(getApplicationContext(),BirthdayMessages.class);
+}
 
 
 }
