@@ -13,6 +13,8 @@
            android:layout_height="wrap_content"
            android:id="@+id/arrow_2"
            android:src="@drawable/arrow2"
+           android:clickable="true"
+           android:onClick="back"
 
            />
 

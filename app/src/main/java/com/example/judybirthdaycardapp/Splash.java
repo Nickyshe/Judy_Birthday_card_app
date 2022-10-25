@@ -16,6 +16,7 @@ import android.widget.TextView;
 
 public class Splash extends AppCompatActivity {
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -44,6 +45,28 @@ public class Splash extends AppCompatActivity {
 
 
     }
+public void clickEvent(View v){
+       ImageView imageView =(ImageView) findViewById(R.id.arrow_icon);
+       imageView.setOnClickListener(new View.OnClickListener() {
+           @Override
+           public void onClick(View view) {
+               finish();
+           }
+       });
+
+}
+
+public void back(View v){
+       ImageView imageView = (ImageView) findViewById(R.id.arrow_2);
+       imageView.setOnClickListener(new View.OnClickListener() {
+           @Override
+           public void onClick(View view) {
+               finish();
+           }
+       });
+
+}
+
 
 
     public void openBirthdayMessage(View view) {
