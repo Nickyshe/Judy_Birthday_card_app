@@ -29,31 +29,27 @@ public class Splash extends AppCompatActivity {
         }, 5000);
     }
 
-    public void open(MenuItem item){
-        ConstraintLayout bottomNav=(ConstraintLayout) findViewById(R.id.constraint);
-       bottomNav.setVisibility(ConstraintLayout.VISIBLE);
-
+    public void open(MenuItem item) {
+        ConstraintLayout bottomNav = (ConstraintLayout) findViewById(R.id.constraint);
+        bottomNav.setVisibility(ConstraintLayout.VISIBLE);
 
 
     }
 
-public void siginPage(View v){
+    public void siginPage(View v) {
 
-      TextView textView=(TextView) findViewById(R.id.open_signin) ;
-      Intent intent = new Intent(getApplicationContext(),Sigin_Page.class);
-      startActivity(intent);
+        TextView textView = (TextView) findViewById(R.id.open_signin);
+        Intent intent = new Intent(getApplicationContext(), Sigin_Page.class);
+        startActivity(intent);
 
 
-}
-public void arrow(View v){
-    ImageView imageView = (ImageView) findViewById(R.id.arrow_icon);
-    finish();
-}
+    }
 
-public void openBirthdayMessage(View view){
-    CardView cardView = (CardView) findViewById(R.id.card1);
-        Intent intent =new Intent(getApplicationContext(),BirthdayMessages.class);
-}
+
+    public void openBirthdayMessage(View view) {
+        CardView cardView = (CardView) findViewById(R.id.card1);
+        Intent intent = new Intent(getApplicationContext(), BirthdayMessages.class);
+    }
 
 
 }
