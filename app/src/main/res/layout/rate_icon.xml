@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#B3000000"
+    android:visibility="invisible"
+    android:id="@+id/rate_layout">
+
+
+
+        <androidx.cardview.widget.CardView
+
+            android:layout_width="250dp"
+            android:layout_height="415dp"
+            android:layout_centerHorizontal="true"
+android:layout_marginTop="170dp"
+            app:cardCornerRadius="20dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/rate_birth"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="50dp"
+                    android:scaleType="center"
+
+                    android:src="@drawable/keep"
+
+
+                    />
+
+                <TextView
+                    android:id="@+id/enjoy"
+                    android:layout_width="120dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_height="38dp"
+                    android:layout_below="@id/rate_birth"
+
+                    android:layout_marginTop="16dp"
+                    android:layout_marginBottom="10dp"
+                    android:gravity="center"
+                    android:text="Enjoying Birthday Messages?"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+
+                    />
+
+                <TextView
+                    android:id="@+id/support"
+                    android:layout_width="185dp"
+                    android:layout_height="80dp"
+                    android:layout_below="@id/enjoy"
+                    android:layout_centerHorizontal="true"
+                    android:gravity="center_horizontal"
+                    android:text="Support us by giving rate and
+                              your precious review!!
+                        It will only take few seconds only.
+
+"
+                    android:textColor="@color/black"
+                    android:textSize="14sp"
+
+                    />
+
+                <RelativeLayout
+
+                    android:gravity="center"
+                    android:id="@+id/star_rate"
+                    android:layout_below="@id/support"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+
+                    >
+
+                    <ImageView
+                        android:id="@+id/star1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/star_rate"
+                        />
+
+                    <ImageView
+
+                        android:layout_toRightOf="@id/star1"
+                        android:id="@+id/star_two"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/star_rate"
+                        />
+
+                    <ImageView
+
+                        android:layout_toRightOf="@id/star_two"
+                        android:id="@+id/star3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/star_rate"
+                        />
+
+                    <ImageView
+
+                        android:layout_toRightOf="@id/star3"
+                        android:id="@+id/star4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/star_rate"
+                        />
+
+                    <ImageView
+                        android:layout_toRightOf="@id/star4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/star_rate"
+                        android:id="@+id/star5"
+                        />
+
+
+
+
+                </RelativeLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                  android:layout_below="@id/star_rate"
+                    android:layout_marginTop="18dp"
+                   android:textAlignment="center"
+                    android:gravity="center"
+                    android:text="Maybe later"
+                    android:textSize="14sp"
+
+                    />
+
+
+            </RelativeLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+
+
+</RelativeLayout>

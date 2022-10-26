@@ -12,6 +12,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.WindowManager;
 import android.widget.ImageView;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 public class Splash extends AppCompatActivity {
@@ -54,6 +55,18 @@ public class Splash extends AppCompatActivity {
     public void openBirthdayMessage(View view) {
         CardView cardView = (CardView) findViewById(R.id.card1);
         Intent intent = new Intent(getApplicationContext(), BirthdayMessages.class);
+    }
+
+    public void openRate(View v){
+        TextView textView = (TextView) findViewById(R.id.app);
+        textView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                RelativeLayout open = (RelativeLayout) findViewById(R.id.rate_layout);
+                open.setVisibility(RelativeLayout.VISIBLE);
+            }
+        });
+
     }
 
 
