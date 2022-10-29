@@ -64,8 +64,24 @@ public class Splash extends AppCompatActivity {
             public void onClick(View view) {
                 RelativeLayout open = (RelativeLayout) findViewById(R.id.rate_layout);
                 open.setVisibility(RelativeLayout.VISIBLE);
+                ConstraintLayout bottomNav = (ConstraintLayout) findViewById(R.id.constraint);
+                bottomNav.setVisibility(ConstraintLayout.INVISIBLE);
+
             }
         });
+
+    }
+
+    public void openFeedback(View v){
+      ImageView imageView = (ImageView) findViewById(R.id.star1);
+      imageView.setOnClickListener(new View.OnClickListener() {
+
+          @Override
+          public void onClick(View view) {
+
+
+          }
+      });
 
     }
 
