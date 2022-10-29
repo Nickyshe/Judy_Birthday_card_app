@@ -5,6 +5,8 @@ import androidx.cardview.widget.CardView;
 import androidx.constraintlayout.widget.ConstraintLayout;
 
 import android.content.Intent;
+import android.graphics.Color;
+import android.net.Uri;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Looper;
@@ -48,16 +50,12 @@ public class Splash extends AppCompatActivity {
     }
 
 
-
-
-
-
     public void openBirthdayMessage(View view) {
         CardView cardView = (CardView) findViewById(R.id.card1);
         Intent intent = new Intent(getApplicationContext(), BirthdayMessages.class);
     }
 
-    public void openRate(View v){
+    public void openRate(View v) {
         TextView textView = (TextView) findViewById(R.id.app);
         textView.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -72,19 +70,87 @@ public class Splash extends AppCompatActivity {
 
     }
 
-    public void openFeedbackA(View v){
-      ImageView imageView = (ImageView) findViewById(R.id.star1);
-      imageView.setOnClickListener(new View.OnClickListener() {
+    public void openFeedbackA(View v) {
+        ImageView imageView = (ImageView) findViewById(R.id.star1);
+        imageView.setOnClickListener(new View.OnClickListener() {
 
-          @Override
-          public void onClick(View view) {
+            @Override
+            public void onClick(View view) {
+                int yellow = Color.parseColor("#FFEB3B");
+                imageView.setBackgroundColor(yellow);
+                RelativeLayout relativeLayout = (RelativeLayout) findViewById(R.id.feedback_xml);
+                relativeLayout.setVisibility(RelativeLayout.VISIBLE);
+                RelativeLayout open = (RelativeLayout) findViewById(R.id.rate_layout);
+                open.setVisibility(RelativeLayout.INVISIBLE);
+                ConstraintLayout bottomNav = (ConstraintLayout) findViewById(R.id.constraint);
+                bottomNav.setVisibility(ConstraintLayout.INVISIBLE);
 
-
-
-          }
-      });
+            }
+        });
 
     }
 
+    public void openFeedbackB(View v) {
+        ImageView imageView = (ImageView) findViewById(R.id.star_two);
+        imageView.setOnClickListener(new View.OnClickListener() {
 
+            @Override
+            public void onClick(View view) {
+                int yellow = Color.parseColor("#FFEB3B");
+                imageView.setBackgroundColor(yellow);
+                RelativeLayout relativeLayout = (RelativeLayout) findViewById(R.id.feedback_xml);
+                relativeLayout.setVisibility(RelativeLayout.VISIBLE);
+                RelativeLayout open = (RelativeLayout) findViewById(R.id.rate_layout);
+                open.setVisibility(RelativeLayout.INVISIBLE);
+                ConstraintLayout bottomNav = (ConstraintLayout) findViewById(R.id.constraint);
+                bottomNav.setVisibility(ConstraintLayout.INVISIBLE);
+
+            }
+        });
+
+
+    }
+
+    public void openFeedbackC(View v) {
+        ImageView imageView = (ImageView) findViewById(R.id.star3);
+        imageView.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View view) {
+                int yellow = Color.parseColor("#FFEB3B");
+                imageView.setBackgroundColor(yellow);
+                RelativeLayout relativeLayout = (RelativeLayout) findViewById(R.id.feedback_xml);
+                relativeLayout.setVisibility(RelativeLayout.VISIBLE);
+                RelativeLayout open = (RelativeLayout) findViewById(R.id.rate_layout);
+                open.setVisibility(RelativeLayout.INVISIBLE);
+                ConstraintLayout bottomNav = (ConstraintLayout) findViewById(R.id.constraint);
+                bottomNav.setVisibility(ConstraintLayout.INVISIBLE);
+
+            }
+        });
+
+    }
+    public void openFeedbackD(View v){
+        ImageView imageView = (ImageView) findViewById(R.id.star4);
+        imageView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                int yellow = Color.parseColor("#FFEB3B");
+                imageView.setBackgroundColor(yellow);
+
+
+                RelativeLayout relativeLayout = (RelativeLayout) findViewById(R.id.feedback_xml);
+                relativeLayout.setVisibility(RelativeLayout.VISIBLE);
+                ConstraintLayout bottomNav = (ConstraintLayout) findViewById(R.id.constraint);
+                bottomNav.setVisibility(ConstraintLayout.INVISIBLE);
+
+                Intent intent = new Intent(Intent.ACTION_VIEW);
+                intent.setData(Uri.parse(
+                        "https://play.google.com/store/apps/details?id=com.example.android"));
+                intent.setPackage("com.android.vending");
+                startActivity(intent);
+
+            }
+        });
+    }
 }

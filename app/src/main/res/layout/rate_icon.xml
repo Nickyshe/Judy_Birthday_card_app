@@ -107,6 +107,8 @@ android:layout_marginTop="12dp"
                         />
 
                     <ImageView
+                        android:onClick="openFeedbackD"
+                        android:clickable="true"
 
                         android:layout_toRightOf="@id/star3"
                         android:id="@+id/star4"
@@ -116,6 +118,7 @@ android:layout_marginTop="12dp"
                         />
 
                     <ImageView
+
                         android:layout_toRightOf="@id/star4"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
