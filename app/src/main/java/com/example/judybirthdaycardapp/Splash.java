@@ -72,12 +72,13 @@ public class Splash extends AppCompatActivity {
 
     }
 
-    public void openFeedback(View v){
+    public void openFeedbackA(View v){
       ImageView imageView = (ImageView) findViewById(R.id.star1);
       imageView.setOnClickListener(new View.OnClickListener() {
 
           @Override
           public void onClick(View view) {
+
 
 
           }
