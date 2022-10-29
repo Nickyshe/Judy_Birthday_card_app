@@ -57,36 +57,40 @@ public class Splash extends AppCompatActivity {
 
     public void openRate(View v) {
         TextView textView = (TextView) findViewById(R.id.app);
-        textView.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
+        //------THIS WILL RUN ONLY ON DOUBLE CLICK-----
+
+//        textView.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
                 RelativeLayout open = (RelativeLayout) findViewById(R.id.rate_layout);
                 open.setVisibility(RelativeLayout.VISIBLE);
                 ConstraintLayout bottomNav = (ConstraintLayout) findViewById(R.id.constraint);
                 bottomNav.setVisibility(ConstraintLayout.INVISIBLE);
 
-            }
-        });
+//            }
+//        });
 
     }
 
     public void openFeedbackA(View v) {
         ImageView imageView = (ImageView) findViewById(R.id.star1);
-        imageView.setOnClickListener(new View.OnClickListener() {
-
-            @Override
-            public void onClick(View view) {
+        //------THIS WILL MAKE STAR IMAGE TO CHANGE COLOR ONLY ON DOUBLE CLICK-----
+//        imageView.setOnClickListener(new View.OnClickListener() {
+//
+//            @Override
+//            public void onClick(View view) {
                 int yellow = Color.parseColor("#FFEB3B");
                 imageView.setBackgroundColor(yellow);
                 RelativeLayout relativeLayout = (RelativeLayout) findViewById(R.id.feedback_xml);
                 relativeLayout.setVisibility(RelativeLayout.VISIBLE);
                 RelativeLayout open = (RelativeLayout) findViewById(R.id.rate_layout);
-                open.setVisibility(RelativeLayout.INVISIBLE);
-                ConstraintLayout bottomNav = (ConstraintLayout) findViewById(R.id.constraint);
-                bottomNav.setVisibility(ConstraintLayout.INVISIBLE);
+                open.setVisibility(open.INVISIBLE);
+                //-----THIS IS NEEDED NO MORE BECAUSE IT IS ALREADY SET TO INVINCIBLE IN openRate()----
+//                ConstraintLayout bottomNav = (ConstraintLayout) findViewById(R.id.constraint);
+//                bottomNav.setVisibility(bottomNav.INVISIBLE);
 
-            }
-        });
+//            }
+//        });
 
     }
 

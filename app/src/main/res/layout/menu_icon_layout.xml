@@ -2,12 +2,18 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/constraint"
     android:layout_width="match_parent"
-    android:layout_height="fill_parent"
-    android:background="#B3000000"
-    android:visibility="invisible">
+    android:layout_height="fill_parent">
 
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/constraint"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:background="#B3000000"
+        android:visibility="invisible"
+        tools:ignore="MissingConstraints">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -148,7 +154,10 @@
 
     </RelativeLayout>
 
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
     <include layout="@layout/rate_icon" />
+    <include layout="@layout/feedback" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 
