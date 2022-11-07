@@ -28,6 +28,11 @@
         <entry key="..\:/Users/LENOVO/AndroidStudioProjects/JudyBirthdayCardApp/app/src/main/res/layout/toolbar.xml" value="0.203125" />
         <entry key="..\:/Users/LENOVO/AndroidStudioProjects/JudyBirthdayCardApp/app/src/main/res/menu/bottom_menu.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/LENOVO/AndroidStudioProjects/JudyBirthdayCardApp/app/src/main/res/menu/menu.xml" value="0.15" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Judy_Birthday_card_app/app/src/main/res/layout/activity_birthday_messages.xml" value="0.25" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Judy_Birthday_card_app/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Judy_Birthday_card_app/app/src/main/res/layout/birthday_toolbar.xml" value="0.1" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Judy_Birthday_card_app/app/src/main/res/layout/feedback.xml" value="0.1" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Judy_Birthday_card_app/app/src/main/res/layout/toolbar.xml" value="0.1" />
       </map>
     </option>
   </component>
@@ -36,5 +41,12 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.1" />
+      </ProjectState>
+    </option>
   </component>
 </project>
