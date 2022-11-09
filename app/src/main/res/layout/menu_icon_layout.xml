@@ -106,7 +106,6 @@
                     android:layout_gravity="center_horizontal"
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
-                    android:clickable="true"
                     android:drawableStart="@drawable/review"
                     android:drawableEnd="@drawable/arrow"
                     android:drawablePadding="15dp"

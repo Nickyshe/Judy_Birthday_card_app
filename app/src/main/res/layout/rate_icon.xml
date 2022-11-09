@@ -79,7 +79,6 @@ android:layout_marginTop="12dp"
 
                     <ImageView
                         android:onClick="openFeedbackA"
-                        android:clickable="true"
                         android:id="@+id/star1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -88,7 +87,6 @@ android:layout_marginTop="12dp"
 
                     <ImageView
                         android:onClick="openFeedbackB"
-                        android:clickable="true"
                         android:layout_toRightOf="@id/star1"
                         android:id="@+id/star_two"
                         android:layout_width="wrap_content"
@@ -98,7 +96,6 @@ android:layout_marginTop="12dp"
 
                     <ImageView
                         android:onClick="openFeedbackC"
-                        android:clickable="true"
                         android:layout_toRightOf="@id/star_two"
                         android:id="@+id/star3"
                         android:layout_width="wrap_content"
@@ -108,7 +105,7 @@ android:layout_marginTop="12dp"
 
                     <ImageView
                         android:onClick="openFeedbackD"
-                        android:clickable="true"
+
 
                         android:layout_toRightOf="@id/star3"
                         android:id="@+id/star4"
