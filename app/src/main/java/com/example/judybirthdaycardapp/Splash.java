@@ -53,6 +53,8 @@ public class Splash extends AppCompatActivity {
     public void openBirthdayMessage(View view) {
         CardView cardView = (CardView) findViewById(R.id.card1);
         Intent intent = new Intent(getApplicationContext(), BirthdayMessages.class);
+
+        startActivity(intent);
     }
 
     public void openRate(View v) {

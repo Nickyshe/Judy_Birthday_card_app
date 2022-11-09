@@ -6,9 +6,9 @@
     android:layout_height="match_parent"
     tools:context=".BirthdayMessages">
 
+    <include layout="@layout/birthday_toolbar" />
 
-
-    <ScrollView
+        <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:fillViewport="true"
@@ -21,8 +21,7 @@
 
             >
 
-            <include layout="@layout/birthday_toolbar"
-         />
+
 
 
 

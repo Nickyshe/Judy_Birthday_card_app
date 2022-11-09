@@ -37,6 +37,7 @@
             android:text="Submit Feedback"
             android:textColor="@color/black"
             android:layout_marginTop="8dp"
+            android:textAlignment="center"
             android:padding="16sp"
             android:textSize="22sp"
             android:layout_below="@id/mail_box"
@@ -54,7 +55,7 @@
                 android:padding="10dp"
                 android:textSize="18sp"
                 android:inputType="text"
-                android:text="Tell us where we can improve"
+                android:hint="Tell us where we can improve"
                 android:background="@drawable/editbg"
                 />
 

@@ -26,14 +26,7 @@ public class Sigin_Page extends AppCompatActivity {
         startActivity(intent);
     }
 
-    public void clickEvent(View v){
-        ImageView imageView =(ImageView) findViewById(R.id.arrow_icon);
-        imageView.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                finish();
-            }
-        });
-
+    public void clickEvent(View view) {
+        finish();
     }
 }
