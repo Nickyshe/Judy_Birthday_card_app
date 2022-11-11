@@ -19,6 +19,7 @@ public class Sigin_Page extends AppCompatActivity {
     }
 
 
+
     public void accountPage(View view) {
 
         TextView textView = (TextView) findViewById(R.id.account);
@@ -28,5 +29,18 @@ public class Sigin_Page extends AppCompatActivity {
 
     public void clickEvent(View view) {
         finish();
+
     }
+
+    public void sendOtp(View view){
+        TextView textView =(TextView) findViewById(R.id.forget_pass);
+        Intent intent = new Intent(getApplicationContext(), forgotPass.class);
+        startActivity(intent);
+
+
+
+
+    }
+
+
 }
