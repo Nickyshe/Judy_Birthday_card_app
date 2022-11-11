@@ -33,12 +33,13 @@
         <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Judy_Birthday_card_app/app/src/main/res/layout/activity_birthday_messages.xml" value="0.25" />
         <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Judy_Birthday_card_app/app/src/main/res/layout/activity_create_account.xml" value="0.13360507246376813" />
         <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Judy_Birthday_card_app/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Judy_Birthday_card_app/app/src/main/res/layout/activity_sigin_page.xml" value="0.25" />
         <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Judy_Birthday_card_app/app/src/main/res/layout/activity_splash.xml" value="0.25" />
         <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Judy_Birthday_card_app/app/src/main/res/layout/birthday_toolbar.xml" value="0.1" />
         <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Judy_Birthday_card_app/app/src/main/res/layout/feedback.xml" value="0.25" />
         <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Judy_Birthday_card_app/app/src/main/res/layout/menu_icon_layout.xml" value="0.13360507246376813" />
         <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Judy_Birthday_card_app/app/src/main/res/layout/rate_icon.xml" value="0.13360507246376813" />
-        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Judy_Birthday_card_app/app/src/main/res/layout/toolbar.xml" value="0.1" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Judy_Birthday_card_app/app/src/main/res/layout/toolbar.xml" value="0.33" />
       </map>
     </option>
   </component>
@@ -47,12 +48,5 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
-  </component>
-  <component name="VisualizationToolProject">
-    <option name="state">
-      <ProjectState>
-        <option name="scale" value="0.33" />
-      </ProjectState>
-    </option>
   </component>
 </project>
