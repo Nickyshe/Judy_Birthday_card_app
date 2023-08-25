@@ -1,5 +1,6 @@
 # Judy_Birthday_card_app
 This is a cloned birthday card app from playstore
+The app helps people get numerous birthday messages and other celebration messages to their loved ones
 implemented recyclerview, cardview, splash screen, icons, sigin page
 other features like recovery page, images scroll view, constraint layout, tool bar
 This project is basically on UI design of the mobile application
